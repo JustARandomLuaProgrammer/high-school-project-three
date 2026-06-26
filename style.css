@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#HeaderBox {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+}
+
+#WebsiteLogoDisplayedOnHeader {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+}
+
+#WebsiteNameDisplayedOnHeader {
+    width: 60%;
+    height: 100px;
+    margin-left: 100px;
+    font-size: 400%;
+    color: white;
+    z-index: 3;
+    position: absolute;
+}
+
+#ButtonPlacement1OnHeader {
+    margin-left: calc(100px + 60%);
+    width: 25%;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    outline: 1px;
+    outline-color: black;
+    outline-style: solid;
+    outline-offset: -1px;
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    
+}
+#ButtonPlacement1OnHeader:hover {
+    background-color: rgb(162, 255, 0);  
+    color: rgb(0, 2, 40);  
+}
+
+#buffer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.TextTitle {
+    font-size: 70px;
+    font: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.Paragraph {
+    font-size: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.ParagraphListItem {
+    font-size: 40px;
+    font: bold;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+#FooterBox {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.FooterParagraph {
+    font-size: 30px;
+    padding-left: 10px;
+}
